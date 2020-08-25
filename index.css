@@ -26,6 +26,16 @@ body {
     display: flex;
 }
 
+.creeper {
+    position: fixed;
+    z-index: 12;
+    width: 8%;
+    right: 68px;
+    opacity: 1;
+    bottom: 0;
+    filter: brightness(0.7);
+}
+
 .options {
     border: 1px solid #fff;
     border-collapse: collapse;

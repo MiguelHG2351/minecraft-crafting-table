@@ -7,7 +7,10 @@ window.addEventListener("keydown", e => {
     }
 })
 
+const audio = new Audio("./click.mp3")
 function modalInsert() {
+    console.log("click")
+    audio.play()
     $overlay.classList.toggle("active")
     $modal.classList.toggle("active")
 }
